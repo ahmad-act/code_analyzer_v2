@@ -1,0 +1,44 @@
+# --- Code Quality / Static Analysis
+pylint
+flake8
+mypy
+
+# --- Naming Conventions
+
+pep8-naming
+
+# --- Spelling & Grammar
+pyspellchecker
+
+# --- Clarity & Maintainability
+radon
+refactor
+
+# --- Testing / Coverage
+pytest
+coverage
+hypothesis
+
+# --- Security & Safety / Vulnerability Scanning
+bandit
+
+# --- Dependency Management
+pipreqs
+pip-audit
+
+# --- Performance Profiling
+line_profiler
+memory_profiler
+scalene
+
+# --- Formatting & Style
+black
+isort
+autopep8
+
+# --- Documentation Tools ---
+pdoc
+sphinx
+docformatter
+darglint
+
