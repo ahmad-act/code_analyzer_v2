@@ -111,14 +111,27 @@ code-analyzer-v2 "D:\My Study\Coding\code_analyzer_v2\TestProject" --output "D:\
 │   │   └── pylint_runner.py
 │   ├── DependencyManagement/
 │   │   ├── deptry_runner.py
+│   │   ├── pip_audit_runner.py
 │   │   └── pipreqs_runner.py
+│   ├── Documentation/
+│   │   ├── darglint_runner.py
+│   │   ├── docformatter_runner.py
+│   │   ├── pdoc_runner.py
+│   │   └── sphinx_runner.py
+│   ├── FormattingAndStyle/
+│   │   ├── autopep8_runner.py
+│   │   ├── black_runner.py
+│   │   └── isort_runner.py
 │   ├── NamingConvention/
 │   │   └── pep8_naming_runner.py
+│   ├── PerformanceAndEfficiency/
+│   │   ├── cprofile_runner.py
+│   │   ├── line_profiler_runner.py
+│   │   ├── memory_profiler_runner.py
+│   │   └── scalene_runner.py
 │   ├── SecurityAndSafety/
 │   │   └── bandit_runner.py
 │   ├── SpellingAndGrammar/
-│   │   ├── codespell_runner.py
-│   │   ├── misspell_runner.py
 │   │   └── pyspellchecker_runner.py
 │   ├── TestingAndTestCoverage/
 │   │   ├── coverage_runner.py
